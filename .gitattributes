@@ -1,0 +1,1 @@
+checkpoints/*_teacher_wrn28_10_*.pt filter=lfs diff=lfs merge=lfs -text

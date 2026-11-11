@@ -1,0 +1,53 @@
+{
+  "experiment": "54_teacher_wrn28_10_lejepa_full_sqrtw",
+  "run_id": "20261031-033527",
+  "n_params": 36479194,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "train_time_s": 1343.3109681606293,
+  "hyp": {
+    "optimizer": "sgd",
+    "epochs": 100,
+    "batch_size": 128,
+    "lr": 0.05,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 2,
+    "translate": 4,
+    "cutout": 16,
+    "label_smoothing": 0.0,
+    "mixup_alpha": 0.0,
+    "cutmix_alpha": 0.0,
+    "sam_rho": 0.0,
+    "ema_decay": 0.0,
+    "clip_norm": 0.0,
+    "arch": "wrn",
+    "depth": 28,
+    "width": 10,
+    "pretraining": {
+      "method": "lejepa",
+      "epochs": 300,
+      "batch_size": 256,
+      "views": 4,
+      "lr": 0.002,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 10,
+      "lambda": 0.02,
+      "projector": [
+        2048,
+        2048,
+        16
+      ],
+      "from_pretrained": "38_teacher_wrn28_10_lejepa_full"
+    },
+    "full_train": true,
+    "sample_weights": "results/subgroups_38_teacher_wrn28_10_lejepa_full/20261030-213616/train_subgroups.csv",
+    "monitored_set": "test (logged only, no validation set)"
+  },
+  "seed": 0,
+  "knn_test_acc_pretrained": 0.9071,
+  "pretrain_time_s": 0.0,
+  "test_loss": 0.08849022537469864,
+  "test_acc": 0.9729999899864197,
+  "test_tta_loss": 0.07734968513250351,
+  "test_tta_acc": 0.9746999740600586
+}

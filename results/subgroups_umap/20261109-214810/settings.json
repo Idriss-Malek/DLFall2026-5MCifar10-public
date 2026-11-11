@@ -1,0 +1,9 @@
+{
+  "subgroups": "results/subgroups_38_teacher_wrn28_10_lejepa_full/20261101-160050",
+  "teacher": "38_teacher_wrn28_10_lejepa_full",
+  "student": "57_wrn28_w58_full_t35_38_55_56_600ep_sqrtw",
+  "n_neighbors": 30,
+  "min_dist": 0.1,
+  "metric": "cosine",
+  "random_state": 0
+}

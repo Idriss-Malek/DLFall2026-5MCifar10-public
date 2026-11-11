@@ -1,0 +1,33 @@
+{
+  "experiment": "22_teacher_cct7_3x1",
+  "run_id": "20261030-053408",
+  "n_params": 3765515,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "train_time_s": 13159.546894311905,
+  "hyp": {
+    "optimizer": "adamw",
+    "epochs": 1000,
+    "batch_size": 128,
+    "lr": 0.00055,
+    "momentum": 0.9,
+    "weight_decay": 0.06,
+    "warmup_epochs": 10,
+    "translate": 0,
+    "cutout": 0,
+    "label_smoothing": 0.0,
+    "mixup_alpha": 0.8,
+    "cutmix_alpha": 1.0,
+    "sam_rho": 0.0,
+    "ema_decay": 0.0,
+    "arch": "cct"
+  },
+  "seed": 0,
+  "val_loss": 0.16534008085727692,
+  "val_acc": 0.9666000008583069,
+  "val_tta_loss": 0.15081392228603363,
+  "val_tta_acc": 0.9685999751091003,
+  "test_loss": 0.1781221628189087,
+  "test_acc": 0.9634000062942505,
+  "test_tta_loss": 0.16733551025390625,
+  "test_tta_acc": 0.9656999707221985
+}

@@ -1,0 +1,13 @@
+{
+  "teachers": {
+    "SAM-1": "34_teacher_wrn28_10_sam_full",
+    "SAM-2": "35_teacher_wrn28_10_sam_seed1_full",
+    "SimCLR": "37_teacher_wrn28_10_simclr_full",
+    "LeJEPA": "38_teacher_wrn28_10_lejepa_full",
+    "SAM-AA": "55_teacher_wrn28_10_sampaper_seed0",
+    "CCT": "56_teacher_cct7_3x1_sine_full"
+  },
+  "student": "57_wrn28_w58_full_t35_38_55_56_600ep_sqrtw",
+  "subgroups": "results/subgroups_38_teacher_wrn28_10_lejepa_full/20261101-160050",
+  "splits": 100
+}
